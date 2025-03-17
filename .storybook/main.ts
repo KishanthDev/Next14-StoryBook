@@ -9,7 +9,7 @@ const config: StorybookConfig = {
     {
       "name": "@storybook/addon-essentials",
       "options": {
-        "docs": false
+        "docs": true
       }
     },
     "@storybook/addon-onboarding",
@@ -21,7 +21,7 @@ const config: StorybookConfig = {
     "options": {}
   },
   "staticDirs": [
-    "..\\public"
+    "../public"
   ]
 };
 export default config;
